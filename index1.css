@@ -1,0 +1,36 @@
+body
+{
+    background-color:#ffcdb6;
+    background-image:url("splash.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.continue
+{
+    display: block;
+    margin: auto;
+    margin-top: 40%;
+    cursor: pointer;
+
+    background-color: maroon;
+    height: 50px;
+    width: 175px;
+
+    font-family: gothammedium;
+    font-size: 20px;
+    color: white;
+}   
+@font-face {
+    font-family: 'gothammedium';
+    src: url('gotham-medium-webfont.woff2') format('woff2'),
+         url('gotham-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothambook';
+    src: url('gotham-book-webfont.woff2') format('woff2'),
+         url('gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
