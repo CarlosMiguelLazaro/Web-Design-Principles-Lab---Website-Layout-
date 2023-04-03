@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: gothammedium, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #3f0201;
+    color: #fffae6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: gothammedium, sans-serif;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-family: gothambook, sans-serif;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fffae6;
+    text-decoration: none;
+  }
+  
+  /* Banner Styles */
+  #banner {
+    height: 200px;
+    background-color: #fffae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  #banner img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #main-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fffae6;    
+  }
+  
+  article {
+    margin: 10px;
+    padding: 10px;
+    background-color: #3f0201;
+    color: #fffae6;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box; 
+  }
+  
+  article h2 {
+    margin: 0;
+    font-size: 1.5em; 
+	cursor: pointer;
+    color: #fffae6;
+    transition: color 0.25s;
+  }
+
+  article a:link,  article a:visited{
+    text-decoration: none!important; 
+  }
+
+  article h2:hover {
+    color: #fdeaa3;
+	transition: color 0.25s;
+  }
+
+  article p {
+    font-family: gothambook, sans-serif;
+  }
+  
+  /* Sidebar Styles */
+  #sidebar {
+    padding: 10px;
+    background-color: #fffae6;
+    border: 1px solid #fffae6;
+    color: #3f0201;
+    flex-basis: 20%;
+  }
+  
+  #sidebar h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  #sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #sidebar li {
+    margin: 5px 0;
+    font-family: gothambook, sans-serif;
+  }
+  
+  #sidebar a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #3f0201;
+    color: #fffae6;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.8em;
+  }
+  @font-face {
+    font-family: 'gothammedium';
+    src: url('gotham-medium-webfont.woff2') format('woff2'),
+        url('gotham-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'gothambook';
+    src: url('gotham-book-webfont.woff2') format('woff2'),
+        url('gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
